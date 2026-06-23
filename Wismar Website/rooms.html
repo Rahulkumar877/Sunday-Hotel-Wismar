@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title data-key="room_page_title">Rooms | Sunday Hotel Wismar</title>
+
+    <meta
+      name="description"
+      data-key="room_meta_description"
+      content="Discover rooms at Sunday Hotel Wismar, including Standard Rooms, Superior Rooms and Family Rooms with air conditioning, orthopedic mattresses, free Wi-Fi and modern amenities."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="rooms.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@600&family=Lora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader"><div class="loader"></div></div>
+
+    <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="images/output-onlinepngtools.png"
+            alt="Sunday Hotel Wismar"
+            data-key-alt="logo_alt"
+          />
+        </a>
+      </div>
+
+      <div class="nav-container">
+        <nav class="main-navigation" aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li class="has-dropdown">
+              <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
+              <ul class="dropdown-menu">
+                <li><a href="about.html" data-key="nav_story">Our Story</a></li>
+                <li><a href="contact.html" data-key="nav_contact">Contact Us</a></li>
+                <li><a href="gastronomy.html" data-key="nav_gastronomy">Gastronomy</a></li>
+                <li><a href="tourist-attractions.html" data-key="nav_attractions">Tourist Attraction</a></li>
+                <li><a href="gallery.html" data-key="nav_gallery">Gallery</a></li>
+              </ul>
+            </li>
+
+            <li class="has-dropdown">
+              <a href="#" aria-haspopup="true" data-key="nav_accommodation">Accommodation</a>
+              <ul class="dropdown-menu">
+    
+                <li><a href="rooms.html" data-key="nav_hotel">Rooms</a></li>
+              </ul>
+            </li>
+
+            <li class="has-dropdown">
+              <a href="#" aria-haspopup="true" data-key="nav_wellness">Wellnes</a>
+              <ul class="dropdown-menu">
+                <li><a href="spa.html" data-key="nav_wissemare">Spa</a></li>
+                <li><a href="pool.html" data-key="nav_pool">Indoor Pool</a></li>
+    
+                <!-- <li>
+                    <a href="indoor-playground.html" data-key="nav_playground">Indoor Playground</a>
+                  </li> -->
+              </ul>
+            </li>
+
+            <li><a href="family.html" data-key="nav_family">Families</a></li>
+            <li><a href="events.html" data-key="nav_events">Meetings & Events</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="nav-book">
+        <a href="booking.html" class="btn-book" data-key="book_now">Book Now</a>
+        <button id="langToggle" class="lang-btn">DE</button>
+      </div>
+
+      <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+    <section
+      class="hero-section"
+      style="background-image: url('images/Rooms/rooms1.jpg');"
+    >
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1 data-key="room_title">Rooms</h1>
+        <p data-key="room_desc">Comfortable rooms with a maritime atmosphere</p>
+        <a href="#rooms" class="btn-primary" data-key="room_cta">Explore Rooms</a>
+      </div>
+    </section>
+
+    <section class="overview-section">
+      <div class="section-label" data-key="room_label">Accommodation</div>
+
+      <div class="overview-container">
+        <div class="overview-divider"></div>
+
+        <h2 data-key="room_overview_title">
+          Comfortable Rooms at Sunday Hotel Wismar
+        </h2>
+
+        <p data-key="room_overview_desc" data-animate>
+          Sunday Hotel Wismar offers 177 modern air-conditioned guest rooms, all equipped
+          with ergonomic orthopedic mattresses, satellite TV, telephone, free Wi-Fi and a
+          private bathroom with bathtub, WC, magnifying mirror and hairdryer. Barrier-free
+          rooms are available on request.
+        </p>
+
+        <div class="overview-divider"></div>
+      </div>
+    </section>
+
+    <section class="rooms-section" id="rooms">
+      <div class="section-label" data-key="room_room_types">Room Types</div>
+
+      <h2 data-key="room_choose">Choose Your Room</h2>
+
+      <div class="rooms-filter">
+        <button class="filter-btn active" data-filter="all" data-key="gallery_all">All</button>
+        <button class="filter-btn" data-filter="standard" data-key="room_standard">Standard</button>
+        <button class="filter-btn" data-filter="superior" data-key="room_superior">Superior</button>
+        <button class="filter-btn" data-filter="family" data-key="room_family">Family</button>
+      </div>
+
+      <div class="rooms-container">
+        <div class="room-card" data-type="standard">
+          <img src="images/Rooms/rooms10.jpg" alt="Standard Room" />
+
+          <h3 data-key="room_room1_title">Standard Room</h3>
+
+          <p data-key="room_room1_desc">
+            Bright and thoughtfully furnished rooms for business or leisure stays.
+          </p>
+
+          <button class="details-btn" data-room="standard" data-key="ta_details">
+            Details
+          </button>
+        </div>
+
+        <div class="room-card" data-type="superior">
+          <img src="images/Rooms/rooms7.jpg" alt="Superior Room" />
+
+          <h3 data-key="room_room2_title">Superior Room</h3>
+
+          <p data-key="room_room2_desc">
+            More space and additional comfort, including tea and coffee making facilities.
+          </p>
+
+          <button class="details-btn" data-room="superior" data-key="ta_details">
+            Details
+          </button>
+        </div>
+
+        <div class="room-card" data-type="family">
+          <img src="images/Rooms/rooms6.jpg" alt="Family Room" />
+
+          <h3 data-key="room_room3_title">Family Room</h3>
+
+          <p data-key="room_room3_desc">
+            Spacious rooms for parents and children, ideal for family trips to Mecklenburg.
+          </p>
+
+          <button class="details-btn" data-room="family" data-key="ta_details">
+            Details
+          </button>
+        </div>
+      </div>
+
+      <div class="modal" id="roomModal">
+        <div class="modal-content">
+          <span class="modal-close">&times;</span>
+          <h3 id="modalTitle"></h3>
+          <div id="modalDetails"></div>
+          <a href="#" class="btn-primary" data-key="room_book_room">
+            Book This Room
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="treatments-section">
+      <div class="treatments-container">
+        <div class="treatments-card">
+          <h3 data-key="room_pet_title">Vacation with Your Pet</h3>
+
+          <p data-key="room_pet_desc1">
+            Sunday Hotel Wismar is a pet-friendly hotel. Your four-legged companion is
+            welcome to join you on your Baltic Sea getaway.
+          </p>
+
+          <p data-key="room_pet_desc2">
+            Please inform us at the time of booking if you plan to bring a pet and let us
+            know the size of your animal. An additional fee may apply per pet per night.
+            Pets are not permitted inside the dining and wellness facilities.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-container">
+        <h2 data-key="room_cta_title">Book Your Stay</h2>
+
+        <p data-key="room_cta_desc">
+          Enjoy comfort, wellness and the Mecklenburg Baltic Coast at Sunday Hotel Wismar.
+        </p>
+
+        <a href="booking.html" class="btn-primary" data-key="book_now">Book Now</a>
+      </div>
+    </section>
+
+   <footer class="site-footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <a href="contact.html" class="footer-button" data-key="contact_us">Contact Us</a>
+        <address>
+          Sunday Hotel Wismar<br />
+          Wismar, Mecklenburg, Germany<br />
+          <a href="mailto:reception.wismar@hotelssunday.com">reception.wismar@hotelssunday.com</a><br />
+          <a href="mailto:reservations.wismar@hotelssunday.com">reservations.wismar@hotelssunday.com</a>
+        </address>
+      </div>
+
+      <div class="footer-column">
+        <h4 data-key="quick_links">Quick Links</h4>
+        <ul>
+          <li><a href="rooms.html" data-key="footer_accommodation">Rooms</a></li>
+          <li><a href="spa.html" data-key="footer_spa">Wellness & Spa</a></li>
+          <li><a href="gastronomy.html" data-key="footer_gastro">Gastronomy</a></li>
+          <li><a href="family.html" data-key="footer_family">Families</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column newsletter">
+        <h4 data-key="newsletter">Newsletter</h4>
+        <form action="#" method="POST" class="newsletter-form">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email address"
+            required
+            aria-label="Your Email"
+            data-key-placeholder="newsletter_placeholder"
+          />
+          <button class="btn" type="submit" aria-label="Subscribe to Newsletter" data-key="subscribe">
+            Subscribe
+          </button>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value="New Newsletter Signup!" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-key="footer_copy">© 2026 Sunday Hotel Wismar. All rights reserved.</p>
+      <ul class="footer-legal">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <!-- <li><a href="terms.html" data-key="footer_terms">Terms & Conditions</a></li> -->
+        <li><a href="sitemap.xml" data-key="footer_sitemap">Sitemap</a></li>
+      </ul>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
+    <script src="rooms.js"></script>
+  </body>
+</html>
